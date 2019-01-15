@@ -1,0 +1,136 @@
+/*universal styles*/
+html {
+  font-size: 16px;
+}
+
+div {
+  border: red 1px solid;
+}
+
+/*desktop header*/
+.desktop-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  width: 100%;
+  padding: 0 1.5rem;
+}
+
+.mobile-header {
+  display: none;
+}
+
+.logo {
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 2rem;
+
+}
+
+.desktop-header nav ul li {
+  display: inline-flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.desktop-header nav ul li {
+  padding-left: 1rem;
+}
+/*mobile header*/
+/*banner section*/
+.banner {
+  display: flex;
+  height: auto;
+  width: 100%;
+
+}
+/*banner image*/
+.bannerimg {
+  display: inline-flex;
+  align-items: center;
+  height: auto;
+  width: 60%;
+  padding: 2rem 1.5rem;
+}
+
+.bannerimg img {
+  width: 100%;
+  height: auto;
+}
+/*banner text*/
+.bannertxt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 40%;
+  height: auto;
+
+
+}
+
+.bannertxt h1 {
+  border: red 1px solid;
+  width: 90%;
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  font-size: 4rem;
+  font-weight: bold;
+}
+.bannertxt h4 {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1rem 0;
+}
+
+/*banner button*/
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  width: 50%;
+  height: auto;
+  padding: 0.5rem;
+}
+
+.btn h2 {
+  display: flex;
+  align-self: center;
+
+}
+/*practice section and info navigation*/
+.info {
+  display: flex;
+  height: 850px;
+  width: 100%;
+}
+/*info navigation boxes*/
+/*courses section*/
+.courses {
+  display: flex;
+  height: 560px;
+  width: 100%;
+}
+/*desktop courses*/
+/*programmes*/
+/*mobile courses*/
+/*thesis exhibition section*/
+/*video and quote section*/
+/*information navigation menu*/
+/*boxes*/
+/*footer*/
+footer {
+  display: flex;
+  height: 64px;
+  width: 100%;
+}
+/*copyright*/
+/*footer navigation*/
