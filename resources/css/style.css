@@ -13,7 +13,7 @@ div {
   justify-content: space-between;
   align-items: center;
   height: auto;
-  width: 100%;
+  width: auto;
   padding: 0 1.5rem;
 }
 
@@ -188,7 +188,7 @@ div {
   flex-direction: column;
   padding: 2rem 4.5rem;
   height: auto;
-  width: 100%;
+  width: auto;
 }
 
 .title {
@@ -238,7 +238,6 @@ div {
 /*mobile courses*/
 /*thesis exhibition section*/
 
-
 /*video and quote section*/
 .infovid {
   display: inline-flex;
@@ -252,13 +251,25 @@ div {
   width: 100%;
   height: auto;
 }
-/*information navigation menu*/
-/*boxes*/
 /*footer*/
 footer {
   display: flex;
-  height: 64px;
-  width: 100%;
+  justify-content: space-between;
+  height: auto;
+  width: auto;
+  padding: 1rem 1.5rem;
+}
+
+.desktop-footer nav ul li{
+  width: auto;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.desktop-footer nav ul li a{
+  padding: 0.5rem;
 }
 /*copyright*/
 /*footer navigation*/
