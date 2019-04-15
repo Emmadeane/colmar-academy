@@ -195,8 +195,9 @@ div {
   display: flex;
   justify-content: center;
   align-self: center;
+  width: 100%;
 }
-.courses .title h1 {
+.title h1 {
   font-size: 2rem;
   font-weight: bold;
 }
@@ -236,7 +237,21 @@ div {
 }
 /*mobile courses*/
 /*thesis exhibition section*/
+
+
 /*video and quote section*/
+.infovid {
+  display: inline-flex;
+  align-items: center;
+  height: auto;
+  width: auto;
+  padding: 1.5rem;
+}
+
+.infovid video {
+  width: 100%;
+  height: auto;
+}
 /*information navigation menu*/
 /*boxes*/
 /*footer*/
