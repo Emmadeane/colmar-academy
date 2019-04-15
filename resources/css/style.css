@@ -12,7 +12,7 @@ div {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 4rem;
+  height: auto;
   width: 100%;
   padding: 0 1.5rem;
 }
@@ -44,6 +44,8 @@ div {
   display: flex;
   height: auto;
   width: 100%;
+  align-items: center;
+  justify-content: center;
 
 }
 /*banner image*/
@@ -109,20 +111,22 @@ div {
 /*practice section and info navigation*/
 .info {
   display: flex;
-  height: 850px;
+  height: auto;
   width: 100%;
+  justify-content: center;
 }
 
 .infoquote {
   display: flex;
   flex-direction: column;
   width: 60%;
+
 }
 .infoimg {
   display: inline-flex;
   align-items: center;
   height: auto;
-  width: 100%;
+  width: auto;
   padding: 2rem 1.5rem;
 }
 
@@ -130,15 +134,106 @@ div {
   width: 100%;
   height: auto;
 }
+
+.quote {
+  padding: 2rem 1.5rem;
+  height: auto;
+  width: auto;
+}
+
+.quote h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  padding-bottom: 2rem;
+}
 /*info navigation boxes*/
+.infonav {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.box {
+  padding: 1rem;
+  display: flex;
+  flex-direction:row;
+}
+.boximg {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+.boximg img {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.boxinfo {
+  padding-left: 1rem;
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.boxinfo h3, span {
+  padding-bottom: 0.5rem;
+}
 /*courses section*/
 .courses {
   display: flex;
-  height: 560px;
+  flex-direction: column;
+  padding: 2rem 4.5rem;
+  height: auto;
   width: 100%;
 }
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.courses .title h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
 /*desktop courses*/
+
+.desktop-prog {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+/*check this because your boxes are not lined up properly!!*/
 /*programmes*/
+.prog {
+  height: auto;
+  width: 25%;
+  margin: 2rem;
+}
+
+.prog-img {
+  height: auto;
+  width: 100%;
+}
+
+.prog-img img {
+  height: auto;
+  width: 100%;
+}
+
+.prog-txt {
+  padding: 1rem 1rem 1.5rem 1rem;
+}
+
+.prog-txt h5 {
+  padding: 0.5rem 0rem;
+}
 /*mobile courses*/
 /*thesis exhibition section*/
 /*video and quote section*/
