@@ -1,11 +1,9 @@
 /*universal styles*/
 html {
   font-size: 16px;
+  font-family: 'Source Serif Pro', serif;
 }
 
-div {
-  border: red 1px solid;
-}
 
 /*desktop header*/
 .desktop-header {
@@ -74,12 +72,11 @@ div {
 }
 
 .bannertxt h1 {
-  border: red 1px solid;
   width: 90%;
   display: flex;
   justify-content:flex-start;
   align-items: center;
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-weight: bold;
 }
 .bannertxt h4 {
@@ -87,7 +84,7 @@ div {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bold;
   padding: 1rem 0;
 }
@@ -101,11 +98,14 @@ div {
   width: 50%;
   height: auto;
   padding: 0.5rem;
+  background-color: rgb(28, 102, 62);
 }
 
 .btn h2 {
   display: flex;
   align-self: center;
+  color: #FFFFFF;
+  font-weight: bold;
 
 }
 /*practice section and info navigation*/
@@ -164,6 +164,7 @@ div {
   background-color: rgb(53, 183, 129, 0.50);
 }
 
+
 .boximg {
   display: flex;
   flex-direction: column;
@@ -188,6 +189,16 @@ div {
 .boxinfo h3, span {
   padding-bottom: 0.5rem;
 }
+
+.boxinfo h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.boxinfo a {
+  color: blue;
+}
+
 /*courses section*/
 .courses {
   display: flex;
@@ -241,6 +252,10 @@ div {
   background-color: #FFFFFF;
 }
 
+.prog-txt h4 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
 .prog-txt h5 {
   padding: 0.5rem 0rem;
 }
@@ -259,6 +274,22 @@ div {
 .infovid video {
   width: 100%;
   height: auto;
+}
+
+/*thesis exhibition info nav style 1st box*/
+.title h1 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.box1 {
+  padding: 1rem;
+  display: flex;
+  flex-direction:row;
+}
+
+.box1:nth-child(1n+0) {
+  background-color: rgb(53, 183, 129, 0.50);
 }
 /*footer*/
 footer {
