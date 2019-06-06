@@ -15,8 +15,23 @@ html {
   padding: 0 1.5rem;
 }
 
+
 .mobile-header {
   display: none;
+}
+
+@media only screen and (max-width: 480px) {
+  .desktop-header {
+    display: none;
+}
+ .mobile-header {
+   display: flex;
+   height: 4rem;
+   width: auto;
+   justify-content: space-around;
+   align-items: center;
+ }
+
 }
 
 .logo {
@@ -43,13 +58,7 @@ html {
 }
 /*mobile header*/
 
-@media only screen and (max-width: 480px) {
-  .desktop-header {
-    display: none;
-}
 
-
-}
 /*banner section*/
 .banner {
   display: flex;
@@ -63,25 +72,34 @@ html {
 .bannerimg {
   display: inline-flex;
   align-items: center;
-  height: auto;
-  width: 60%;
   padding: 2rem 1.5rem;
 }
 
-.bannerimg img {
-  width: 100%;
-  height: auto;
+@media only screen and (max-width: 480px) {
+  .bannerimg {
+    display: flex;
+    width: auto;
+    padding: 0;
+  }
 }
+
+
+
+
 /*banner text*/
 .bannertxt {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  width: 40%;
+  width: auto;
   height: auto;
 
 
+}
+
+.bannertxt .btn {
+  justify-content: flex-start;
 }
 
 .bannertxt h1 {
@@ -89,7 +107,7 @@ html {
   display: flex;
   justify-content:flex-start;
   align-items: center;
-  font-size: 3.5rem;
+  font-size: 4rem;
   font-weight: bold;
 }
 .bannertxt h4 {
@@ -107,7 +125,7 @@ html {
 .btn {
   display: flex;
   justify-content: center;
-  align-self: center;
+  align-items: flex-start;
   width: 50%;
   height: auto;
   padding: 0.5rem;
@@ -116,7 +134,7 @@ html {
 
 .btn h2 {
   display: flex;
-  align-self: center;
+  align-items: center;
   color: #FFFFFF;
   font-weight: bold;
 
@@ -132,7 +150,7 @@ html {
 .infoquote {
   display: flex;
   flex-direction: column;
-  width: 63.5%;
+  width: 60%;
 
 }
 .infoimg {
@@ -143,10 +161,6 @@ html {
   padding: 2rem 1.5rem;
 }
 
-.infoimg img {
-  width: 100%;
-  height: auto;
-}
 
 .quote {
   padding: 2rem 1.5rem;
@@ -163,8 +177,9 @@ html {
 .infonav {
   display: flex;
   flex-direction: column;
-  width: 40%;
+  width: auto;
   border-left: rgb(53, 183, 129) 0.5px solid;
+  padding-top: 1rem;
 }
 
 .box {
@@ -182,10 +197,10 @@ html {
   display: flex;
   flex-direction: column;
   width: 35%;
+
 }
 .boximg img {
     width: 100%;
-    height: auto;
     display: flex;
     flex-direction: column;
 }
