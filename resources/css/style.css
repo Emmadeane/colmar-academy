@@ -57,6 +57,7 @@ html {
  }
  .mobile-header nav a img {
    margin: 1.75rem;
+   justify-content: space-around;
  }
 
 }
