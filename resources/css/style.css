@@ -20,19 +20,6 @@ html {
   display: none;
 }
 
-@media only screen and (max-width: 480px) {
-  .desktop-header {
-    display: none;
-}
- .mobile-header {
-   display: flex;
-   height: 4rem;
-   width: auto;
-   justify-content: space-around;
-   align-items: center;
- }
-
-}
 
 .logo {
   display: inline-flex;
@@ -57,7 +44,22 @@ html {
   padding-left: 1rem;
 }
 /*mobile header*/
+@media only screen and (max-width: 480px) {
+  .desktop-header {
+    display: none;
+}
+ .mobile-header {
+   display: flex;
+   height: 4rem;
+   width: auto;
+   justify-content: space-between;
+   align-items: center;
+ }
+ .mobile-header nav a img {
+   margin: 1.75rem;
+ }
 
+}
 
 /*banner section*/
 .banner {
@@ -75,10 +77,21 @@ html {
   padding: 2rem 1.5rem;
 }
 
+.bannerimg-mobile {
+  display: none;
+}
+
 @media only screen and (max-width: 480px) {
+  .banner {
+    flex-direction: column;
+  }
   .bannerimg {
+  display: none;
+  }
+
+  .bannerimg-mobile {
     display: flex;
-    width: auto;
+    width:
     padding: 0;
   }
 }
