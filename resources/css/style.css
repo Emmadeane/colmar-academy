@@ -57,10 +57,13 @@ html {
  }
  .mobile-header nav a img {
    margin: 1.75rem;
-   justify-content: space-around;
+   justify-content: space-between;
    align-items: center;
  }
 
+.logo {
+  align-self: center;
+}
 
 /*banner section*/
 .banner {
