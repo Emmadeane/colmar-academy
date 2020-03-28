@@ -141,7 +141,16 @@ html {
 
 @media only screen and (max-width: 480px) {
 
+  .bannertxt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
 
+
+  }
 
   .bannertxt .btn {
     justify-content: flex-start;
