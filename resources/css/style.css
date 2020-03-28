@@ -61,20 +61,6 @@ html {
    align-items: center;
  }
 
- .mobile-header nav a img .logo {
-   display: inline-flex;
-   justify-content: flex-start;
-   align-items: center;
-   height: 3rem;
- }
-
- .mobile-header .logo span {
-   font-size: 1.5rem;
-   padding: 0, 1rem;
- }
-
-
-}
 
 /*banner section*/
 .banner {
