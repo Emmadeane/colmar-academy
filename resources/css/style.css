@@ -64,6 +64,7 @@ html {
 .logo {
   align-self: center;
 }
+}
 
 /*banner section*/
 .banner {
@@ -74,6 +75,7 @@ html {
   justify-content: center;
   background-image: linear-gradient(#29aaa8, #29a974);
 }
+
 /*banner image*/
 .bannerimg {
   display: inline-flex;
@@ -137,6 +139,37 @@ html {
   padding: 1rem 0;
 }
 
+@media only screen and (max-width: 480px) {
+
+
+
+  .bannertxt .btn {
+    justify-content: flex-start;
+  }
+
+  .bannertxt h1 {
+    width: 90%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    font-size: 4rem;
+    font-weight: bold;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+  }
+  
+  .bannertxt h4 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem 0;
+  }
+
+}
 /*banner button*/
 
 .btn {
