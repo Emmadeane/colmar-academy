@@ -4,11 +4,7 @@ html {
   font-family: 'Source Serif Pro', serif;
 }
 
-@media only screen and (max-width: 480px) {
-  body {
-    display: flex;
-  }
-}
+
 /*desktop header*/
 .desktop-header {
   display: flex;
@@ -204,6 +200,7 @@ html {
 
 @media only screen and (max-width: 480px) {
   .btn {
+    flex-grow: 2;
     width: 100%;
   }
 }
