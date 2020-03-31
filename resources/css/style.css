@@ -199,12 +199,7 @@ html {
 
 }
 
-@media only screen and (max-width: 480px) {
 
-  .btn {
-    margin-bottom: 2rem;
-  }
-}
 /*practice section and info navigation*/
 .info {
   display: flex;
