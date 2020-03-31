@@ -171,7 +171,7 @@ html {
   .bannertxt h4 {
     width: 100%;
     display: flex;
-    justify-content:center;
+    justify-content:space-around;
     align-self: center;
     font-size: 2rem;
     font-weight: bold;
