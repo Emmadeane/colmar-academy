@@ -171,10 +171,11 @@ html {
   .bannertxt h4 {
     width: 100%;
     display: flex;
-    justify-content:space-around;
+    justify-content: center;
     align-self: center;
     font-size: 2rem;
     font-weight: bold;
+    padding-top: 0rem;
     padding-left: 1rem;
     padding-bottom: 1.5rem;
   }
