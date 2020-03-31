@@ -148,7 +148,7 @@ html {
     align-items: center;
     width: auto;
     height: auto;
-
+    padding-left: 1rem;
 
   }
 
@@ -177,7 +177,7 @@ html {
     font-weight: bold;
     padding-top: 0rem;
     padding-left: 1rem;
-    padding-bottom: 1.5rem;
+    padding-bottom: 1rem;
   }
 
 }
@@ -199,6 +199,13 @@ html {
   color: #FFFFFF;
   font-weight: bold;
 
+}
+
+@media only screen and (max-width: 480px) {
+
+  .btn {
+    padding-bottom: 2rem;
+  }
 }
 /*practice section and info navigation*/
 .info {
