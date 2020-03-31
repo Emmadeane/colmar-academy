@@ -163,9 +163,7 @@ html {
     align-self: center;
     font-size: 3.5rem;
     font-weight: bold;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    padding-left: 1rem;
+    padding: 2rem 0rem;
   }
 
   .bannertxt h4 {
@@ -175,9 +173,7 @@ html {
     align-self: center;
     font-size: 2rem;
     font-weight: bold;
-    padding-top: 0rem;
-    padding-left: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 0rem 0rem 1rem 1rem;
   }
 
 }
@@ -204,7 +200,7 @@ html {
 @media only screen and (max-width: 480px) {
 
   .btn {
-    padding-bottom: 2rem;
+    margin-bottom: 2rem;
   }
 }
 /*practice section and info navigation*/
