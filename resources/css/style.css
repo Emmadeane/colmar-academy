@@ -164,17 +164,18 @@ html {
     align-self: center;
     font-size: 3.5rem;
     font-weight: bold;
-    padding: 2rem 0rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 
   .bannertxt h4 {
     width: 100%;
     display: flex;
     justify-content: center;
-    align-self: center;
+    align-self: flex-start;
     font-size: 2rem;
     font-weight: bold;
-    padding: 0rem 0rem 1rem 1rem;
+    padding-bottom: 1rem;
   }
 
 }
