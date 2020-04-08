@@ -317,10 +317,16 @@ html {
 
   .boximg {
     width: 100%;
+    height: 50%;
   }
+
+  .boximg img {
+      width: 50%;
+    }
 
   .boxinfo {
     width: 100%;
+    padding-top: 4rem;
   }
 }
 /*courses section*/
