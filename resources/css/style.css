@@ -247,6 +247,13 @@ html {
   font-weight: bold;
   padding-bottom: 2rem;
 }
+
+@media only screen and (max-width: 480px) {
+  .infoquote {
+    display: none;
+  }
+}
+
 /*info navigation boxes*/
 .infonav {
   display: flex;
