@@ -310,6 +310,19 @@ html {
   color: blue;
 }
 
+@media only screen and (max-width: 480px) {
+  .box {
+    flex-direction:column;
+  }
+
+  .boximg {
+    width: 100%;
+  }
+
+  .boxinfo {
+    width: 100%;
+  }
+}
 /*courses section*/
 .courses {
   display: flex;
