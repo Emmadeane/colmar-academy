@@ -275,7 +275,6 @@ html {
   background-color: rgba(53, 183, 129, 0.5);
 }
 
-
 .boximg {
   display: flex;
   flex-direction: column;
@@ -327,7 +326,7 @@ html {
     display: flex;
     flex-direction: column;
   }
-
+  
   .boxinfo {
     width: 100%;
     padding-top: 4rem;
