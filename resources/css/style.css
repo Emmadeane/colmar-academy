@@ -290,7 +290,7 @@ html {
     flex-direction: column;
 }
 
-.boximg-mob img {
+.boximg-mob {
     display: none;
 }
 
